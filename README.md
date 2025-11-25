@@ -1,5 +1,6 @@
 <div align="center">
 
+
 <img src="ReadmeImg/logo.png" alt="Meow AI Logo" width="200" height="auto" />
 
 # Meow AI
