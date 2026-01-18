@@ -56,7 +56,15 @@ Nous avons mené des tests rigoureux sur plusieurs architectures pour prouver la
 C'est ici que Meow-AI innove. En utilisant un modèle pré-entraîné sur des milliards d'images et de textes (comme BLIP-2 ou Qwen-VL), nous contournons le problème du manque de données.
 *   **Avantage 1 : Transfer Learning Massif**. Le modèle "sait" déjà à quoi ressemble un visage surpris ou fâché.
 *   **Avantage 2 : Raisonnement**. Si l'image est floue, le LLM peut déduire l'émotion par le contexte global, là où ResNet et ViT échouent.
-*   **Performance Attendue** : Supérieure à 60% avec une explicabilité totale.
+*   **Performance Attendue (Cible)** : Nous visons un score **> 60%** (basé sur la littérature SOTA).
+    *   *Note Importante* : Ce score est une **projection théorique**. Les expérimentations sur Vision-LLM sont en cours d'intégration dans le backend Dockerisé. Contrairement au ResNet et au ViT, nous n'avons pas encore de benchmark finalisé sur ce modèle spécifique dans l'environnement actuel.
+
+### Tableau Comparatif des Performances
+| Modèle | Type | Accuracy | Statut |
+| :--- | :--- | :--- | :--- |
+| **ResNet-50** | Vision Pure (CNN) | ~51% | **Validé** (Ala's Try) |
+| **ViT** | Vision Pure (Transformer) | 47.91% | **Validé** (Dhia Try) - Échec (Overfitting) |
+| **Vision-LLM** | Multimodal | **> 60% (Cible)** | **En cours d'intégration** |
 
 ---
 
