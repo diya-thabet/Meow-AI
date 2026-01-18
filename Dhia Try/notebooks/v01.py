@@ -979,7 +979,7 @@ def train_model_with_checkpoints(model, criterion, optimizer, num_epochs=50):
 # trained_model, history = train_model_with_checkpoints(model, criterion, optimizer, num_epochs=50)
 
 # %%
-!pip install grad-cam
+#!pip install grad-cam
 
 # %%
 from pytorch_grad_cam import GradCAM
@@ -1045,7 +1045,7 @@ visualize_heatmap(test_dataset, 10) # Change le chiffre pour voir d'autres image
 visualize_heatmap(test_dataset, 37)
 
 # %%
-!pip install transformers
+#!pip install transformers
 
 # %%
 from transformers import BlipProcessor, BlipForConditionalGeneration
