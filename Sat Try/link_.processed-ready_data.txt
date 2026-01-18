@@ -1,0 +1,10 @@
+hadhi resultat il pipiline t3 il data illi 3mlto (GAN -> 400*400)  ( mb3d howa bch o7awlha il 336*366 lil vision llm) :
+
+	
+https://www.kaggle.com/datasets/aymensatouri/raf-ce-raw-400
+( hadhi just kima illi mpratigiha dhia ema 3la kaggel , 5ater 3la kaggle matnjmsh timporti mmil G drive)
+
+
+o hadhi labelisé bil json , hadhi hiya illi bch tis3mouha lil vision llm:
+
+https://www.kaggle.com/datasets/aymensatouri/raf-ce-processed-ready
